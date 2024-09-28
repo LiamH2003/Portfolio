@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+}
+
+.contentDiv {
+    margin-top: 10px;
+    height: 90vh;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.containerDiv {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textDiv {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    width: 70vw;
+    border: 2px solid #74daee;
+    border-radius: 20px;
+    background-color: black;
+    padding: 40px;
+}
+
+.firstDiv {
+    text-align: left;
+    margin-right: 100px;
+}
+
+
+.firstDiv p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.firstDiv a {
+    padding: 10px 20px;
+    justify-self: flex-end;
+    text-align: center;
+    width: 10vw;
+    border: 1px solid #74daee;
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.firstDiv a:hover {
+    opacity: 0.8;
+}
+
+.containerDiv h2 {
+    font-family: Inconsolata;
+}

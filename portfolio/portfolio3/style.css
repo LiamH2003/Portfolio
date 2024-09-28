@@ -1,0 +1,123 @@
+body {
+    overflow: hidden;
+}
+
+.contentDiv {
+    margin-top: 10px;
+    height: 90vh;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contentDiv h2 {
+    color: white;
+    font-family: Inconsolata;
+    font-size: 180%;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #74daee;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerDiv {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.itemDivs {
+    text-align: left;
+    margin-top: 5vh;
+    height: 65vh;
+    background-color: white;
+    width: 18vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 5px solid #74daee;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.itemDivs h3 {
+    margin-top: 5px;
+}
+
+.itemDivs div {
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    font-size: 1vw;
+    line-height: 140%;
+    border-radius: 0px 0px 8px 8px;
+    height: 10vw;
+}
+
+.itemDivs:hover {
+    opacity: 0.8;
+}
+
+.itemDivs:hover div {
+    opacity: 1;
+}
+
+
+.itemDiv1 {
+    background-image: url("../../images/dynamicPoster_1.png");
+}
+
+.itemDiv2 {
+    background-image: url("../../images/dynamicPoster_2.png");
+}
+
+.procesDiv {
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+    color: white;
+    width: 70%;
+    font-size: 1vw;
+    height: 25vw;
+    border: 1px solid #74daee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procesDiv a {
+    padding: 10px;
+    justify-self: flex-end;
+    text-align: center;
+    width: 10vw;
+    border: 1px solid #74daee;
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.procesDiv a:hover {
+    opacity: 0.8;
+}
+
+.procesDiv div {
+    justify-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 20px;
+}

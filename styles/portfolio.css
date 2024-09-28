@@ -1,0 +1,96 @@
+body {
+    overflow: hidden;
+}
+
+.contentDiv {
+    margin-top: 10px;
+    height: 90vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemDivs {
+    margin-top: 5vh;
+    height: 65vh;
+    background-color: white;
+    width: 18vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 5px solid #74daee;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+.itemDivs h3 {
+    margin-top: 5px;
+}
+
+.itemDivs div {
+    background-color: rgb(7, 7, 7);
+    opacity: 0.8;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    font-size: 1vw;
+    line-height: 140%;
+    border-radius: 0px 0px 8px 8px;
+    height: 10vw;
+}
+
+.itemDivs:hover {
+    opacity: 0.8;
+}
+
+.itemDivs:hover div {
+    opacity: 1;
+}
+
+.itemDiv1 {
+    background-image: url("../images/portfolioImage_1.png");
+}
+
+.itemDiv2 {
+    background-image: url("../images/portfolioImage_2.png");
+}
+
+.itemDiv3 {
+    background-image: url("../images/portfolioImage_3.png");
+}
+
+.itemDiv4 {
+    background-image: url("../images/portfolioImage_4.png");
+}
+
+.showMore {
+    color: white;
+    width: 94vw;
+    align-self: center;
+    text-align: center;
+    margin-top: 8vh;
+    padding: 10px;
+    border: 2px solid #74daee;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Inconsolata;
+    font-size: 110%;
+
+}
+
+.showMore:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

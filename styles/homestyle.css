@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bodyDiv {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navDiv {
+    height: 9vh;
+    display: flex;
+    font-family: Inconsolata;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navDiv a {
+    transition: 0.1s;
+    padding: 1em 2em;
+    font-size: 1.2vw;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navDiv a:not(.activeElement) {
+    color: #74daee;
+}
+
+.navDiv a:last-child {
+    margin-right: 50px;
+}
+
+.activeElementLine {
+    position: absolute;
+    top: 55px;
+    background-color: #74daee;
+    height: 2px;
+    width: 6vw;
+}
+
+.activeElement, .activeElement:active, .activeElement:visited {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.navDiv a:hover {
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.navDiv a:active {
+    color: #74daee;
+}
+
+.navDiv img {
+    margin-top: 10px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: 50px;
+}
